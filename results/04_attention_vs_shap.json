@@ -1,0 +1,40 @@
+{
+ "CKD": {
+  "rho": 0.26363636363636367,
+  "p": 0.43344073761161456,
+  "n_features": 11,
+  "top_attention": [
+   "eGFR_mLmin173m2",
+   "Pulse_Rate_bpm",
+   "DBP_mmHg",
+   "Insulin_uIUmL",
+   "Physical_Activity"
+  ],
+  "top_shap": [
+   "eGFR_mLmin173m2",
+   "Serum_Creatinine_mgdL",
+   "DBP_mmHg",
+   "MAP_mmHg",
+   "Statin_Use"
+  ]
+ },
+ "CVD": {
+  "rho": 0.9363636363636365,
+  "p": 2.2082076449177507e-05,
+  "n_features": 11,
+  "top_attention": [
+   "Non_HDL_mgdL",
+   "SBP_mmHg",
+   "Family_Hx_CVD",
+   "Fatty_Liver_Index",
+   "Diabetes_Hx"
+  ],
+  "top_shap": [
+   "Non_HDL_mgdL",
+   "SBP_mmHg",
+   "Diabetes_Hx",
+   "Family_Hx_CVD",
+   "Fatty_Liver_Index"
+  ]
+ }
+}

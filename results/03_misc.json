@@ -1,0 +1,16 @@
+{
+ "cross_domain_pairs": 82,
+ "cross_domain_mean_abs_r": 0.029587209083059455,
+ "cross_domain_max_abs_r": 0.3844222256414537,
+ "total_pairs": 91,
+ "ethnicity": {
+  "groups": 7,
+  "chi2": 5.0083169876720826,
+  "df": 6,
+  "p": 0.5427468417095322,
+  "prevalence_min": 0.588,
+  "prevalence_max": 0.708
+ },
+ "n_low": 519,
+ "n_high": 981
+}

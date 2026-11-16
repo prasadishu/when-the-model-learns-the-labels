@@ -1,0 +1,7 @@
+comparison,delta,lo,hi
+R (reconstructed score; primary): overlap vs full panel,0.0022330834152664014,-0.0023611760042799553,0.006863103544260247
+R (reconstructed score; primary): overlap vs non-overlap,0.3591939564513176,0.32560601091148644,0.39214616823933596
+P1 (earlier working partition): overlap vs full panel,-0.014980860554963948,-0.025301670210260172,-0.00489823091480312
+P1 (earlier working partition): overlap vs non-overlap,0.2751537467263815,0.2400484184891278,0.30945473153336883
+P2 (earlier working partition): overlap vs full panel,-0.05761301873407643,-0.07265282771779345,-0.043130054777798
+P2 (earlier working partition): overlap vs non-overlap,0.16384271696556674,0.1271273903761449,0.20082953531181136

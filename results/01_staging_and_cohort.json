@@ -1,0 +1,138 @@
+{
+  "n": 1500,
+  "n_predictors_after_dropping_constants": 46,
+  "dropped_constant_columns": [
+    "NAFLD_US"
+  ],
+  "n_nonrenal": 42,
+  "renal_markers_removed": [
+    "Serum_Creatinine_mgdL",
+    "eGFR_mLmin173m2",
+    "UACR_mgG",
+    "BUN_mgdL"
+  ],
+  "n_continuous": 35,
+  "n_categorical": 11,
+  "prevalence_ckd_high": 0.4706666666666667,
+  "prevalence_cvd_high": 0.49533333333333335,
+  "ckm_high_n": 981,
+  "ckm_equals_max_all_rows": true,
+  "ckm_ge3_matches_high": true,
+  "log1p_vars_abs_skew": {
+    "ALT_UL": 2.21,
+    "AST_UL": 2.53,
+    "GGT_UL": 2.21,
+    "UACR_mgG": 6.07,
+    "CRP_mgL": 3.71,
+    "Insulin_uIUmL": 1.74,
+    "HOMA_IR": 0.84,
+    "Triglycerides_mgdL": 1.31,
+    "Serum_Creatinine_mgdL": 1.47,
+    "FIB4_Score": 3.41
+  },
+  "other_vars_abs_skew_gt1": [
+    "TG_HDL_Ratio",
+    "BUN_mgdL"
+  ],
+  "cvd_weights": {
+    "dm": 3,
+    "htn": 2,
+    "dyslipidaemia": 1,
+    "mets": 1,
+    "organ_damage": 2,
+    "other_rf": 1
+  },
+  "cvd_cutoffs": [
+    6,
+    8,
+    9,
+    11
+  ],
+  "cvd_reconstruction_in_sample": {
+    "exact": 0.444,
+    "within_one": 0.8173333333333334
+  },
+  "cvd_reconstruction_refit_cutoffs": {
+    "cutoffs": [
+      6,
+      8,
+      9,
+      11
+    ],
+    "exact": 0.444
+  },
+  "cvd_reconstruction_cv_out_of_fold": {
+    "exact": 0.444,
+    "within_one": 0.8173333333333334
+  },
+  "cvd_recorded_distribution": [
+    213,
+    338,
+    206,
+    385,
+    358
+  ],
+  "cvd_reconstructed_distribution": [
+    113,
+    286,
+    186,
+    480,
+    435
+  ],
+  "cvd_confusion_recorded_by_reconstructed": [
+    [
+      75,
+      79,
+      26,
+      31,
+      2
+    ],
+    [
+      29,
+      116,
+      67,
+      93,
+      33
+    ],
+    [
+      5,
+      51,
+      39,
+      83,
+      28
+    ],
+    [
+      4,
+      39,
+      42,
+      182,
+      118
+    ],
+    [
+      0,
+      1,
+      12,
+      91,
+      254
+    ]
+  ],
+  "cvd_high_risk_agreement": 0.7546666666666667,
+  "R_overlap": [
+    "HbA1c_pct",
+    "Triglycerides_mgdL",
+    "HDL_mgdL",
+    "LDL_mgdL",
+    "CRP_mgL",
+    "BMI",
+    "Waist_Circ_cm",
+    "SBP_mmHg",
+    "Age",
+    "Sex"
+  ],
+  "R_nonoverlap": [
+    "HOMA_IR",
+    "ALT_UL",
+    "AST_UL",
+    "GGT_UL"
+  ]
+}

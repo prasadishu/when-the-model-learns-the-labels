@@ -1,0 +1,8 @@
+subset,n_vars,auc,lo,hi
+Full curated panel (14 variables),14,0.8762149947284297,0.8589900014780816,0.891809488128322
+"R (reconstructed score; primary): 10 overlapping variables (HbA1c_pct, Triglycerides_mgdL, HDL_mgdL, LDL_mgdL, CRP_mgL, BMI, Waist_Circ_cm, SBP_mmHg, Age, Sex)",10,0.8784480781436961,0.8614993830513238,0.8937142821231615
+"R (reconstructed score; primary): 4 non-overlapping variables (HOMA_IR, ALT_UL, AST_UL, GGT_UL)",4,0.5192541216923785,0.4893005462981389,0.548706505764464
+"P1 (earlier working partition): 7 overlapping variables (Age, SBP_mmHg, LDL_mgdL, HDL_mgdL, Triglycerides_mgdL, BMI, HbA1c_pct)",7,0.8612341341734657,0.8434370765355254,0.8794969592542212
+"P1 (earlier working partition): 7 non-overlapping variables (HOMA_IR, ALT_UL, AST_UL, GGT_UL, CRP_mgL, Waist_Circ_cm, Sex)",7,0.5860803874470842,0.5548505549627571,0.6131309267680005
+"P2 (earlier working partition): 7 overlapping variables (Age, SBP_mmHg, BMI, HDL_mgdL, HbA1c_pct, CRP_mgL, Sex)",7,0.8186019759943532,0.7968109253442183,0.8379476378913755
+"P2 (earlier working partition): 7 non-overlapping variables (HOMA_IR, ALT_UL, AST_UL, GGT_UL, Triglycerides_mgdL, LDL_mgdL, Waist_Circ_cm)",7,0.6547592590287865,0.6262667304302503,0.6815395409431362
